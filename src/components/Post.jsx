@@ -12,12 +12,12 @@ const Post = () => {
                 {post.title}
               </div>
               {post.liked ? (
-                <div className=" flex items-center bg-teal-400 rounded-full">
-                  <FaThumbsUp className="cursor-pointer text-sm text-white m-2" />
+                <div className=" flex items-center">
+                  <FaThumbsUp className="cursor-pointer text-sm text-yellow-400" />
                 </div>
               ) : (
-                <div className=" flex items-center bg-white rounded-full">
-                  <FaThumbsUp className="cursor-pointer text-sm text-black m-2" />
+                <div className=" flex items-center">
+                  <FaThumbsUp className="cursor-pointer text-sm" />
                 </div>
               )}
             </div>
