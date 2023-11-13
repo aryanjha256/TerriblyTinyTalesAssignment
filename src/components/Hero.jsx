@@ -14,7 +14,7 @@ const Hero = () => {
           src={cover}
           alt="Cover Image"
         />
-        <div className="flex px-6">
+        <div className="md:flex px-6">
           <img
             className="relative max-h-44 rounded-full -mt-12 border-2 border-gray-300"
             src={headshot}
