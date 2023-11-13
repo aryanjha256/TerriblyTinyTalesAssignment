@@ -3,6 +3,8 @@ import headshot from "../assets/headshot.jpg";
 import { user } from "../data/info.json";
 
 import { FaEye, FaHeart, FaStar, FaThumbsUp } from "react-icons/fa";
+import { FcApproval } from "react-icons/fc";
+import { TbDiamondFilled } from "react-icons/tb";
 
 const Hero = () => {
   return (
@@ -20,8 +22,12 @@ const Hero = () => {
             src={headshot}
             alt="Profile Picture"
           />
-          <div className="ml-4 mt-2">
-            <div className="font-bold text-lg">{user.name}</div>
+          <div className="md:ml-4 mt-2">
+            <div className="flex items-center font-bold text-lg">
+              <div className="mr-2">{user.name}</div>
+              <TbDiamondFilled />
+              <FcApproval />
+            </div>
             <div className="text-gray-500 -mt-1">@{user.username}</div>
             <div className="text-gray-600 flex space-x-4 mt-4">
               <div className="flex flex-col items-center min-w-[72px]">

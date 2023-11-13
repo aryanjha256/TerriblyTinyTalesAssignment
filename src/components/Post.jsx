@@ -1,4 +1,4 @@
-import { BsHandThumbsUp } from "react-icons/bs";
+import { FaThumbsUp } from "react-icons/fa";
 import { user } from "../data/info.json";
 
 const Post = () => {
@@ -6,18 +6,18 @@ const Post = () => {
     <>
       {user.posts.map((post, index) => {
         return (
-          <div className="border-b px-2 py-4">
+          <div className="border-b py-4">
             <div className="flex justify-between mb-2">
               <div className="font-bold text-lg " key={index}>
                 {post.title}
               </div>
               {post.liked ? (
                 <div className=" flex items-center bg-teal-400 rounded-full">
-                  <BsHandThumbsUp className="cursor-pointer text-sm text-white m-2" />
+                  <FaThumbsUp className="cursor-pointer text-sm text-white m-2" />
                 </div>
               ) : (
                 <div className=" flex items-center bg-white rounded-full">
-                  <BsHandThumbsUp className="cursor-pointer text-sm text-black m-2" />
+                  <FaThumbsUp className="cursor-pointer text-sm text-black m-2" />
                 </div>
               )}
             </div>

@@ -8,7 +8,7 @@ const App = () => {
     <>
       <NavBar />
       <Hero />
-      {/* <PostList /> */}
+      <PostList />
     </>
   );
 };
