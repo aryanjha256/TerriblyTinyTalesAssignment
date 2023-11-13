@@ -1,5 +1,6 @@
 import cover from "../assets/cover.jpg";
 import headshot from "../assets/headshot.jpg";
+import { user } from "../data/info.json";
 
 const Hero = () => {
   return (
@@ -10,25 +11,30 @@ const Hero = () => {
         src={cover}
         alt="Cover Image"
       />
-      <div className="">
+      <div className="max-w-4xl m-auto flex">
         <img
-          className="relative max-h-32"
+          className="relative max-h-44 rounded-full -mt-12 border-4 border-white"
           src={headshot}
           alt="Profile Picture"
         />
-        <span>Aryan Kumar</span>
-        <span>3200</span>
-        <span>Followers</span>
-        <span>32</span>
-        <span>Following</span>
-        <div>
-          <div>a random python🐍 developer getting rusty.</div>
-          <a
-            href="https://github.com/aryanjha256"
-            className="text-yellow-200 hover:text-yellow-300"
-          >
-            GitHub
-          </a>
+        <div className="ml-4">
+          <div className="font-bold">{user.name}</div>
+          <div className="text-gray-500">@{user.username}</div>
+          <div className="text-gray-600">
+            <span>{user.followers}</span>
+            <span>Followers</span>
+            <span>{user.following}</span>
+            <span>Following</span>
+          </div>
+          <div>
+            <div>{user.bio}</div>
+            <a
+              href="https://github.com/aryanjha256"
+              className="text-teal-300 hover:text-teal-400"
+            >
+              GitHub
+            </a>
+          </div>
         </div>
       </div>
     </div>

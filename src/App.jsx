@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      {/* <Hero /> */}
+      <Hero />
       <PostList />
     </>
   );
