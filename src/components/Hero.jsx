@@ -20,6 +20,7 @@ const Hero = () => {
           <img
             className="relative max-h-44 rounded-full -mt-12 border-2 border-gray-300"
             src={headshot}
+            // i can add my image, but i don't want to
             alt="Profile Picture"
           />
           <div className="md:ml-4 mt-2">
@@ -59,7 +60,8 @@ const Hero = () => {
             <FaStar fill="teal" /> <span className="text-xs">256</span>
           </div>
           <div className="flex items-center space-x-2">
-            <FaThumbsUp fill="yellow" /> <span className="text-xs">34</span>
+            <FaThumbsUp className="text-yellow-400" />{" "}
+            <span className="text-xs">34</span>
           </div>
           <div className="flex items-center space-x-2">
             <FaEye fill="gray" /> <span className="text-xs">12.13K</span>
