@@ -1,0 +1,191 @@
+{
+  "user": {
+    "name": "Aryan Kumar",
+    "username": "aryanjha256",
+    "bio": "a random python developer getting rusty",
+    "followers": 1383,
+    "following": 32,
+    "posts": [
+      {
+        "title": "Exploring the Wilderness",
+        "postcontent": "Venturing into the heart of nature, discovering hidden wonders. Add some content here. A long paragraph would be nice. I am just typing random stuff to fill up the space. I hope this is enough. I guess it is. I will stop now. Bye.",
+        "liked": true,
+        "date": "August 12",
+        "readingtime": "3",
+        "views": "234",
+        "category": "musing"
+      },
+      {
+        "title": "Coding Adventures",
+        "postcontent": "Embarking on a coding journey, unraveling the mysteries of programming. Same for here. Add some content here. A long paragraph would be nice. I am just typing random stuff to fill up the space. I hope this is enough. I guess it is. I will stop now. Bye.",
+        "liked": false,
+        "date": "September 5",
+        "readingtime": "5",
+        "views": "120",
+        "category": "thoughts"
+      },
+      {
+        "title": "Culinary Delights",
+        "postcontent": "Savoring exquisite dishes from around the world, a gastronomic tour. Something unique please, Have it",
+        "liked": true,
+        "date": "October 8",
+        "readingtime": "4",
+        "views": "312",
+        "category": "thoughts"
+      },
+      {
+        "title": "Mindfulness Meditation",
+        "postcontent": "Embracing tranquility through mindful practices, a journey within.",
+        "liked": true,
+        "date": "November 15",
+        "readingtime": "6",
+        "views": "189",
+        "category": "musing"
+      },
+      {
+        "title": "Epic Sci-Fi Book Review",
+        "postcontent": "Diving into the realms of futuristic fiction, exploring captivating narratives.",
+        "liked": false,
+        "date": "December 3",
+        "readingtime": "7",
+        "views": "420",
+        "category": "thoughts"
+      },
+      {
+        "title": "Fitness Transformation Diary",
+        "postcontent": "Documenting the highs and lows of a fitness journey, chasing wellness.",
+        "liked": true,
+        "date": "January 21",
+        "readingtime": "5",
+        "views": "265",
+        "category": "musing"
+      },
+      {
+        "title": "Photography Expedition",
+        "postcontent": "Capturing moments through the lens, freezing time in a frame.",
+        "liked": false,
+        "date": "February 14",
+        "readingtime": "4",
+        "views": "198",
+        "category": "thoughts"
+      },
+      {
+        "title": "Tech Gadgets Unboxed",
+        "postcontent": "Unveiling the latest tech gadgets, a peek into the future of innovation.",
+        "liked": true,
+        "date": "March 9",
+        "readingtime": "3",
+        "views": "150",
+        "category": "thoughts"
+      },
+      {
+        "title": "Artistic Expressions",
+        "postcontent": "Exploring the world of art, a canvas filled with emotions and creativity.",
+        "liked": true,
+        "date": "April 5",
+        "readingtime": "6",
+        "views": "278",
+        "category": "musing"
+      },
+      {
+        "title": "Travel Chronicles: Tokyo",
+        "postcontent": "Immersing in the vibrant culture of Tokyo, a city that never sleeps.",
+        "liked": false,
+        "date": "May 17",
+        "readingtime": "7",
+        "views": "320",
+        "category": "thoughts"
+      },
+      {
+        "title": "Career Insights: Navigating Corporate Labyrinths",
+        "postcontent": "Lessons learned and strategies for success in the corporate world.",
+        "liked": true,
+        "date": "June 8",
+        "readingtime": "4",
+        "views": "185",
+        "category": "thoughts"
+      },
+      {
+        "title": "Nature's Symphony",
+        "postcontent": "Listening to the melodies of nature, finding harmony in the wilderness.",
+        "liked": false,
+        "date": "July 2",
+        "readingtime": "5",
+        "views": "270",
+        "category": "musing"
+      },
+      {
+        "title": "DIY Home Decor Projects",
+        "postcontent": "Transforming living spaces with creativity and a touch of DIY magic.",
+        "liked": true,
+        "date": "August 19",
+        "readingtime": "3",
+        "views": "240",
+        "category": "thoughts"
+      },
+      {
+        "title": "The Science of Dreams",
+        "postcontent": "Delving into the mysterious world of dreams, deciphering their meanings.",
+        "liked": true,
+        "date": "September 14",
+        "readingtime": "6",
+        "views": "300",
+        "category": "musing"
+      },
+      {
+        "title": "Gourmet Coffee Tasting",
+        "postcontent": "Exploring the nuances of coffee flavors, a journey for caffeine enthusiasts.",
+        "liked": false,
+        "date": "October 7",
+        "readingtime": "4",
+        "views": "180",
+        "category": "thoughts"
+      },
+      {
+        "title": "Adventure Road Trip: Pacific Coast Highway",
+        "postcontent": "Driving along the breathtaking Pacific Coast, chasing the horizon.",
+        "liked": true,
+        "date": "November 5",
+        "readingtime": "7",
+        "views": "400",
+        "category": "thoughts"
+      },
+      {
+        "title": "Personal Growth Strategies",
+        "postcontent": "Navigating the path of self-improvement, unlocking the potential within.",
+        "liked": true,
+        "date": "December 12",
+        "readingtime": "5",
+        "views": "260",
+        "category": "musing"
+      },
+      {
+        "title": "World Cuisine Cooking Class",
+        "postcontent": "Embarking on a culinary journey, mastering the art of global cuisine.",
+        "liked": false,
+        "date": "January 8",
+        "readingtime": "4",
+        "views": "220",
+        "category": "thoughts"
+      },
+      {
+        "title": "Stargazing in the Desert",
+        "postcontent": "Admiring the cosmic wonders in the tranquil desert night sky.",
+        "liked": false,
+        "date": "February 22",
+        "readingtime": "3",
+        "views": "190",
+        "category": "musing"
+      },
+      {
+        "title": "Behind the Scenes: Movie Production",
+        "postcontent": "Uncovering the magic of filmmaking, a glimpse into the movie industry.",
+        "liked": true,
+        "date": "March 18",
+        "readingtime": "6",
+        "views": "280",
+        "category": "thoughts"
+      }
+    ]
+  }
+}
