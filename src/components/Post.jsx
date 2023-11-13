@@ -21,17 +21,17 @@ const Post = () => {
                 </div>
               )}
             </div>
-            <div className="my-2">
+            <div className="my-6 text-gray-500">
               <div>{post.postcontent}</div>
             </div>
-            <div className=" flex justify-between text-sm">
+            <div className="flex flex-col md:flex-row md:justify-between text-sm text-gray-400 text-right">
               <div className=" font-semibold">
                 <span className="cursor-pointer text-teal-600 ">
                   {post.category}
                 </span>{" "}
                 by {user.username}
               </div>
-              <div>
+              <div className="text-sm text-gray-400">
                 {post.date} &middot; {post.readingtime} mins Read &middot;{" "}
                 {post.views} Views
               </div>
