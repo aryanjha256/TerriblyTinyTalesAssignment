@@ -52,6 +52,8 @@ This componnent is used to display a single post block and render its content an
 
 ### Installing packages and running the project
 
+Make sure you have nodejs installed on your local system.
+
 `npm install`
 
 `npm run dev`
