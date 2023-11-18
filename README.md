@@ -44,19 +44,26 @@ This componnent is used to display a single post block and render its content an
 
 ### Clone the GitHub repository
 
-`git clone https://github.com/aryanjha256/TerriblyTinyTalesAssignment.git`
+```bash
+git clone https://github.com/aryanjha256/TerriblyTinyTalesAssignment.git
+```
 
 ### Change the directory
 
-`cd TerriblyTinyTalesAssignment`
+```bash
+cd TerriblyTinyTalesAssignment
+```
 
 ### Installing packages and running the project
 
 Make sure you have nodejs installed on your local system.
 
-`npm install`
-
-`npm run dev`
+```bash
+npm install
+```
+```bash
+npm run dev
+```
 
 ### View the project locally on your web browser
 
